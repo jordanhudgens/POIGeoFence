@@ -8,8 +8,11 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
-                            
+class ListTableViewController: UIViewController, UISearchBarDelegate {
+    
+    
+    @IBOutlet var searchBar: UISearchBar!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +23,11 @@ class FirstViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    
+    
+    func searchBarSearchButtonClicked(searchBar: UISearchBar!) {
+        println(searchBar.text)
+    }
 
 }
 

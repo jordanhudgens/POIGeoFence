@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8423754D19B196450094B716 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423754C19B196450094B716 /* AppDelegate.swift */; };
-		8423754F19B196450094B716 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423754E19B196450094B716 /* FirstViewController.swift */; };
+		8423754F19B196450094B716 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423754E19B196450094B716 /* ListTableViewController.swift */; };
 		8423755119B196450094B716 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8423755019B196450094B716 /* SecondViewController.swift */; };
 		8423755419B196450094B716 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8423755219B196450094B716 /* Main.storyboard */; };
 		8423755619B196450094B716 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8423755519B196450094B716 /* Images.xcassets */; };
@@ -29,7 +29,7 @@
 		8423754719B196450094B716 /* POIGeoFence.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = POIGeoFence.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8423754B19B196450094B716 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8423754C19B196450094B716 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8423754E19B196450094B716 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		8423754E19B196450094B716 /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
 		8423755019B196450094B716 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		8423755319B196450094B716 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8423755519B196450094B716 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -78,7 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				8423754C19B196450094B716 /* AppDelegate.swift */,
-				8423754E19B196450094B716 /* FirstViewController.swift */,
+				8423754E19B196450094B716 /* ListTableViewController.swift */,
 				8423755019B196450094B716 /* SecondViewController.swift */,
 				8423755219B196450094B716 /* Main.storyboard */,
 				8423755519B196450094B716 /* Images.xcassets */,
@@ -213,7 +213,7 @@
 			files = (
 				8423755119B196450094B716 /* SecondViewController.swift in Sources */,
 				8423754D19B196450094B716 /* AppDelegate.swift in Sources */,
-				8423754F19B196450094B716 /* FirstViewController.swift in Sources */,
+				8423754F19B196450094B716 /* ListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +399,7 @@
 				8423756719B196450094B716 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8423756819B196450094B716 /* Build configuration list for PBXNativeTarget "POIGeoFenceTests" */ = {
 			isa = XCConfigurationList;
@@ -407,6 +408,7 @@
 				8423756A19B196450094B716 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
